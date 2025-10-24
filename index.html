@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header class="flex">
+        <p class="header">たかひコットンキャンディー</p>
+        <p class="header">君だけのためのCotton Candyが、ここにある。</p>
+        <p class="header">移動販売も実施中！</p>
+    </header>
+    <img src="img/class_sign.jpeg" class="title" alt="看板「たかひコットンキャンディー」">
+    <marquee scrollamount="15:" style="color:black; font-size:25pt;">校庭にてお待ちしております！</marquee>
+    <div class="block">
+        <div class="flex">
+        <h2>メニュー</h2>
+        <h3>＜わたあめ＞--一律100円／金券2枚
+            <br>　ノーマル
+            <br>　いちご
+            <br>　レモン
+            <br>　ブルーハワイ
+            <br>＜トッピング＞--一律50円×種類／金券1枚×種類
+            <br>　チョコスプレー
+            <br>　マシュマロ
+            <br>　パチパチパニック
+        </h3>
+        <img src="img/class_menu.jpeg" alt="メニュー表" class="menu">
+        </div>
+        <p>※トッピングのみでのご購入はできません。</p>
+    </div>
+    <div class="block">
+        <h2>君だけのためのCotton Candyが、ここにある。</h2>
+        <br>
+        <button onclick="getRandomCottonCandy();">たかひこのオススメを聞く！</button>
+    </div>
+    <div class="block">
+        <video autoplay loop muted playsinline>
+        <source src="video/class_moving_teacher.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="block">
+        <h2>マップ</h2>
+        <br>
+        <img src="img/class_map.jpg" class="map">
+        <p>「あ」てにならないにも「ほ」どがある「マップ」、略して「あほマップ」</p>
+    </div>
+    <div class="block">
+        <h2>学校公式の文化祭HP</h2>
+        <p>※今閲覧頂いているサイトは当該クラスの生徒が勝手に作ったものです(^▽^)/</p>
+        <a href="https://www.shukutokuseitokai.com">学校公式の文化祭HPへ</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
